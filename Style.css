@@ -1,0 +1,1146 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "Inter", serif;
+	list-style: none;
+}
+
+:root{
+	--text-color:#2699FB;
+	--bg_color:linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+}
+
+header{
+	width: 100%;
+	height: auto;
+}
+.header-outer{
+	max-width: 1170px;
+	height: 129px;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-outer img{
+	width: 204px;
+	height: 85px;
+}
+.headerButton{
+	display: flex;
+    flex-direction: row;
+    gap: 10px;
+	z-index: 9;
+}
+.WhatsaapBtn{
+	width: 166px;
+	height: 40px;
+	padding: 10px 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	color:#27AE60;
+	border: 1px solid #27AE60;
+	border-radius: 8px;
+	background: #FFFFFF;
+	box-shadow: 0px 1px 2px 0px #1018280D;
+}
+.WhatsaapBtn img{
+	width: 20px;
+	height: 20px;
+}
+.PhoneBtn{
+	width: 90px;
+	height: 44px;
+	background: var(--bg_color);
+	border: none;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	color: #FFFFFF;
+	padding: 10px 18px;
+}
+/*-------------------------------------------------------------------Register-form---------------------------------------------*/
+#Register-form{
+	width: 100%;
+	height: auto;
+}
+.form-main{
+	max-width: 1170px;
+	height: auto;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 10px;
+}
+.form-left{
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 20px;
+}
+.form-left h1 {
+    font-size: 52px;
+	font-weight: 700;
+	line-height: 68px;
+}
+.form-left h1 span {
+    background: var(--bg_color);
+    -webkit-background-clip: text; /* Clipping background to text */
+    -webkit-text-fill-color: transparent; /* Making text transparent */
+    display: inline-block; /* Ensure background covers only text */
+    position: relative;
+}
+.form-left h1 span:after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(Images/underline.png);
+	background-position: center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.form-left h2{
+	font-family: inter;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 35px;
+	color:#0A2134;
+}
+.form-left ul{
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+}
+.form-left ul li{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 22px;
+	font-weight: 400;
+	color: #0A2134;
+	line-height: 35px;
+	gap: 22px;
+
+}
+.form-left ul li i{
+	color: var(--text-color);
+}
+.form-left-btn{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 35px;
+	gap: 20px;
+	
+}
+.form-left-btn button{
+	width: 100%;
+	height: 60px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+
+}
+.form-left-btn .BtnOne{
+	background: var(--bg_color);
+	font-size: 20px;
+	font-weight: 700;
+	color:#FFFFFF;
+	box-shadow: 0px 4px 14px 2px #2699FB61;
+}
+.form-left-btn .BtnTwo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #D0D5DD;
+	background:none;
+	box-shadow: 0px 1px 3px 0px #1018281A;
+	font-size: 18px;
+	font-weight: 500;
+	gap: 10px;
+}
+/*-------------------------------------------------------*/
+.form-right{
+	flex-grow: 50%;
+}
+.bottom-circle{
+	width: 552px;
+	height: 552px;
+	margin: 0px auto;
+	border-radius: 50%;
+	background: #E9F5FF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form-area{
+	width: 410px;
+	height: 491.9px;
+	background: #FFFFFF;
+	box-shadow: 0px 1px 3px 0px #1018281A;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.form-Union-area{
+	width: 100%;
+	height: 69.9px;
+}
+.Input-field{
+	width: 330px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.Input-Field-Base{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+	
+}
+.Input-with-label{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	line-height: 20px;
+	gap: 8px;
+}
+.Input-with-label label{
+	font-weight: 500;
+	font-size: 14px;
+	color: #0A2134;
+}
+.Input-with-label input{
+	width: 100%;
+	height: 44px;
+	border-radius: 8px;
+	padding: 10px 14px;
+	bbackground: #FFFFFF;
+	border: 1px solid #D0D5DD;
+	box-shadow: 0px 1px 2px 0px #1018280D;
+}
+.Input-field button{
+	width: 330px;
+	height: 44px;
+	border-radius: 8px;
+	padding: 10px 18px;
+	border: none;
+	background: var(--bg_color);
+	box-shadow: 0px 1px 2px 0px #1018280D;
+	color:#FFFFFF;
+}
+/*--------------------------------------------------Third Section---------------------------------*/
+#ThirdSection{
+	width: 100%;
+	height: auto;
+	margin-top: 70px;
+}
+.ThirdSectionOuter{
+	max-width: 1170px;
+	min-height: 146px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	border-radius: 8px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 80px -2px #002F5814;
+	justify-content: space-around;
+	align-items: center;
+}
+.Achivement{
+	width: 174px;
+	height: 68px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.Achivement .number{
+	font-size: 30px;
+	font-weight: 700;
+	color: var(--text-color);
+}
+.Achivement .text{
+	font-size: 16px;
+	font-weight: 400;
+	color:#43505B;
+}
+/* End of Archivement Section */
+#highlights{
+	width: 100%;
+	height: 641px;
+	margin-top: 73px;
+	background-color: #F7FAFF;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+.highlights-wrapper{
+	max-width: 1170px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.highlights-heading{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.highlights-heading h4{
+	font-size: 36px;
+	font-weight: 700;
+	color: #0A2134;
+}
+.highlights-heading p{
+	font-size: 18px;
+	font-weight: 400;
+}
+.highlights-feature{
+	width: 100%;
+	height: auto;
+	margin-top: 43px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	row-gap: 20px;
+}
+.highlights-feature-block{
+	max-width: 370px;
+	height: 118px;
+	background: white;
+	display: flex;
+	padding: 16px;
+}
+.block-element{
+	width: 321px;
+	height: 86px;
+	display: flex;
+	gap: 16px;
+}
+.block-element img{
+	width: 86px;
+	height: 86px;
+}
+.block-element-text{
+	display: flex;
+	flex-direction: column;
+	column-gap: 22px;
+	line-height: 26px;
+}
+.block-element h4{
+	font-size: 20px;
+	font-weight: 600;
+	color: #0A2134;
+}
+.block-element p{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: inter;
+}
+.free-class-btn{
+	max-width: 253px;
+	max-height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	background: var(--bg_color);
+	box-shadow: 0px 1px 2px 0px #1018280D;
+	box-shadow: 0px 4px 14px 2px #2699FB61;
+
+}
+.free-class-btn a{
+	text-decoration: none;
+	color: white;
+	padding: 16px 48px;
+	background-color: transparent;
+	font-weight: 700;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+/* End of Key Highlights of the Course */
+
+#Digital-marketing{
+	max-width: 100%;
+    min-height: 625px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+}
+.Digital-marketing-wrapper{
+	max-width: 1170px;
+    min-height: 465px;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	row-gap: 50px;
+}
+.Digi-heading{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 23px;
+}
+.Digi-heading h3{
+	font-size: 44px;
+	font-weight: 700;
+	text-align: center;
+	color: #0A2134;
+	line-height: 53.25px;
+}
+.Digi-heading p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #0A2134;
+}
+.digi-cards{
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 50px;
+	column-gap: 18px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.cards-chapter{
+	width: 270px;
+	height: 278px;
+	border: 1px solid #F2F4F7;
+	box-shadow: 0px 4px 20px -2px #002F5814;
+	border-radius: 8px;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 28px 14px;
+}
+.cards-img{
+	width: 56px;
+	height: 56px;
+	border-radius: 4px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 0px 4px #F2F4F7, 0px 1px 2px 0px #1018280F, 0px 1px 3px 0px #1018281A;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cards-chapter h4{
+	font-size: 18px;
+	font-weight: 600;
+	color: #0A2134;
+}
+.cards-chapter p{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #0A2134;
+}
+/* --------------------------Certificate------------------- */
+#Certificate{
+	max-width:100% ;
+	min-height: 894px;
+	background: #F7FAFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Certificate-wrapper{
+	max-width: 1170px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+}
+.Certificate-left{
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 23px;
+}
+.Certificate-header{
+	width: 100%;
+	height: 106px;
+}
+.Certificate-header h4{
+	font-size: 36px;
+	font-weight: 700;
+	color: #0A2134;
+}
+.Certificate-header p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #0A2134;
+	line-height: 27px;
+}
+.Certificate-mid{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+}
+.Certificate-mid-cards{
+	width: 100%;
+	height: 128px;
+	background:#FFFFFF;
+	border: 1px solid #F2F4F7;
+	border-radius: 8px;
+	box-shadow: 0px 4px 20px -2px #002F5814;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.Certificate-img{
+	width: 74px;
+	height: 74px;
+	border-radius: 4px;
+	background: #E9F5FF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Certificate-img>img{
+	width: 48px;
+	height: 48px;	
+}
+.cards-text{
+	max-width: 433px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.cards-text h4{
+	font-size: 20px;
+	font-weight: 600;
+	color: #0A2134;
+}
+.cards-text p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #0A2134;
+	line-height: 24px;
+}
+.Certificate-bottom-btn{
+	max-width: 253px;
+	height: 60px;
+	background: var(--bg_color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+}
+.Certificate-bottom-btn a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 700;
+	color: #FFFFFF;
+	padding: 16px 48px;
+}
+/* --------right-side-------------- */
+.Certificate-right{
+	flex-basis: 50%;
+	height: 695px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.certificate-outline{
+	 width: 468px;
+	height: 639px;
+	border-radius: 8px;
+	background: #FFFFFF;
+	border: 1px solid #F2F4F7;
+	box-shadow: 0px 4px 80px -2px #002F5814;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+.Certificate-right>img{
+	width: 154px;
+	height: 154px;
+	position: absolute;
+	top: 12px;
+	left: 22px;
+}
+.certificate-outline-background-circle{
+	width: 228px;
+	height: 228px;
+	background: #E9F5FF;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -29px;
+    right: -16px;
+}
+
+
+/* Curriculum-part */
+
+#Curriculum-part{
+	max-width: 100%;
+	height: auto;
+	padding: 80px 0px;
+}
+.Curriculum-wrapper{
+	max-width: 1170px;
+	min-height:min-content;
+	margin: auto;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Curriculum-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 27px;
+}
+.Curriculum-header h3{
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 53.25px;
+}
+.Curriculum-header p{
+	font-size: 18px;
+	font-weight: 400;
+}
+.Curriculum-navbar{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 50px 0px;
+}
+.Curriculum-navbar nav{
+	width: inherit;
+}
+.Curriculum-navbar nav ul{
+	width: inherit;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.Curriculum-navbar nav ul li{
+	width: 155px;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 18px;
+}
+.Curriculum-navbar nav ul li:first-child{
+	background: #F2F4F7;
+	border-bottom: 3px solid #2699FB
+}
+.Curriculum-navbar nav ul li a{
+	text-decoration: none;
+	color: #0A2134;
+}
+.Curriculum-nav-intro-part{
+	width: 100%;
+	min-height:220px;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 40px 40px 30px 30px;
+	background: #FFFFFF;
+	border: 1px solid #F2F4F7;
+	box-shadow: 0px 4px 20px -2px #002F5814;
+	border-radius: 8px;
+	margin: 25px;
+}
+.Curriculam-Nav-IntroPart-left{
+	flex-basis: content;
+	min-height:auto ;
+}
+.Curriculum-nav-intro-part ul{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.Curriculum-nav-intro-part ul li{
+	display: flex;
+	gap: 10px;
+	align-items: top;
+	justify-content: flex-start;
+}
+.Curriculum-nav-intro-part ul li img{
+	width: 32px;
+	height: 32px;
+}
+.Curriculum-nav-intro-part ul li p{
+	font-size: 22px;
+	font-weight: 400;
+	color: #0A2134;
+}
+.Curriculam-Nav-IntroPart-right{
+	flex-basis: content;
+	min-height:auto ;
+}
+.download-btn{
+	width: 288px;
+	height: 60px;
+	cursor: pointer;
+	background: var(--bg_color);
+	padding: 16px 48px;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.download-btn a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+/* End of Curriculum of Our Digital Marketing */
+
+#why-learn{
+	width: 100%;
+	height: auto;
+	background: #F7FAFF;
+}
+.why-learn-wrapper{
+	max-width: 1170px;
+	min-height: 972px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 35px;
+}
+.why-learn-header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.why-learn-header h4{
+	font-weight: 700;
+	font-size: 36px;
+	color: #0A2134;
+}
+.why-learn-header p{
+	font-weight: 400;
+	font-size: 18px;
+	color: #0A2134;
+}
+.why-learn-chapters{
+	width:100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	row-gap: 30px;
+}
+.why-learn-card{
+	max-width: 370px;
+	height: 284px;
+	border: 1px solid #F2F4F7;
+	box-shadow: 0px 1px 2px 0px #1018280D;
+	background: #FFFFFF;
+	padding: 40px 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.why-learn-card img{
+	max-width:64px;
+	border-radius: 8px;
+}
+.why-learn-card h4{
+	font-weight: 600;
+	font-size: 20px;
+	color: #0A2134;
+}
+.why-learn-card p{
+	font-weight:400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #0A2134;
+}
+
+/* End of Why Learn Digital Marketing */
+
+#Students-feedback{
+	width: 100%;
+	height: auto;
+	padding: 80px 0px;
+}
+.Students-feedback-wrapper{
+	max-width: 1170px;
+	margin: 0px auto;
+}
+.Students-feedback-heading{
+	width: inherit;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+.Students-feedback-heading h3{
+	text-align: center;
+	line-height: 53.25px;
+	font-size: 44px;
+	font-weight: 700;
+}
+.Students-feedback-heading p{
+	font-size: 18px;
+	font-weight: 400;
+}
+.Students-feedback-chapter{
+	width: inherit;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0px;
+	gap: 30px;
+}
+.Students-feedback-card{
+	max-width: 570px;
+	height:285px;
+	border: 1px solid #F2F4F7;
+	border-radius: 8px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 20px -2px #002F5814;
+
+	display: flex;
+	flex-direction: column;
+	padding: 30px 30px 30px 40px;
+	gap: 25px;
+}
+.name-photo{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10px;
+}
+.name-photo img{
+	max-width: 80px;
+}
+.name-photo h5{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24.2px;
+	color: #0A2134;
+}
+.name-photo h5 span{
+	font-size: 15px;
+	font-weight: 400;
+	color: #0A2134;
+}
+.Students-feedback-card p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #0A2134;
+}
+/* End of What Our Students Are Saying! */
+
+#Enroll-now{
+	width: 100%;
+	height: auto;
+}
+.Enroll-now-wrapper{
+	max-width: 1170px;
+	height: 384px;
+	margin: 50px auto;
+	background: var(--bg_color);
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	gap: 25px;
+}
+.Enroll-now-wrapper::before{
+	content: url(Images/left-illusion.png);
+	width: 266px;
+	height: 375px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 80%;
+}
+.Enroll-now-wrapper::after{
+	content: url(Images/left-illusion.png);
+	width: 249px;
+	height: 351px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	transform: rotatey(180deg);
+	opacity: 80%;
+}
+.Enroll-now-wrapper h3{
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 53.25px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.Enroll-now-wrapper p{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.Enroll-now-btn{
+	background: #FFFFFF;
+}
+.Enroll-now-btn a{
+	color: #0A2134;
+}
+/* End of Are You Ready To Start Your Course? */
+
+#FAQs{
+	width: 100%;
+	height: auto;
+	background: #F7FAFF;
+}
+.FAQs-wrapper{
+	width: inherit;
+	min-height: 859px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.FAQs-heading{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.FAQs-heading h3{
+	text-align: center;
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 53.25px;
+	color: #0A2134;
+}
+.FAQs-heading p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #0A2134;
+}
+.FAQs-QA{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.FAQs-QA .first{
+	width: 770px;
+	min-height: 163px;
+	background: #FFFFFF;
+	border: 1px solid;
+	border-image-source: var(--bg_color);
+	border-image-slice: 1;
+	border-radius: 8px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	padding-left:30px ;
+	position: relative;
+
+}
+
+.FAQs-QA .first h5{
+	width: 639px;
+	height: 22px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #2699FB;
+}
+.FAQs-QA .first p{
+	width: 670px;
+	min-height: 79px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #0A2134;
+	line-height: 24px;
+}
+.minus-sign{
+	width: 20.02px;
+	position: absolute;
+	top: 40px;
+	right: 30px;
+	border: 1px solid #2699FB
+}
+.FAQs-QA-parts{
+	width: 770px;
+	height: 62px;
+	background: #FFFFFF;
+	border: 1px solid #F2F4F7;
+	box-shadow: 0px 1px 2px 0px #1018280D;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.FAQs-QA-parts h5{
+	width: 639px;
+	height: 22px;
+	font-size: 18px;
+	font-weight: 600;
+	color:#0A2134;
+}
+.FAQs-QA-parts i{
+	font-size: 20.02px;
+
+}
+/* End of Digital Marketing Course FAQs */
+
+
+#Companies-list{
+	width: 100%;
+	height: auto;
+}
+.Companies-list-wrapper{
+	max-width: 1170px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 80px auto;
+	gap: 40px;
+}
+.Companies-list-wrapper h4{
+	font-size: 36px;
+	font-weight: 700;
+	color: #0A2134;
+}
+.Companies-logo{
+	max-width:1116px;
+	min-height: 102px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+
+}
+.Companies-logo img{
+	width: 200px;
+}
+
+/* End of Top Companies Hiring Digital Marketing in India */
+
+footer{
+	width: 100%;
+	min-height: 282px;
+	background: #0A2540;
+}
+.upper{
+	width: 100%;
+	min-height: 200px;
+	border-bottom: 1px solid #ffffff30;
+	
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+.upper img{
+	height: 60px;
+}
+.upper p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.copyright{
+	width: 100%;
+	min-height: 82px;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copyright a{
+	text-decoration: underline;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+
+

@@ -1,0 +1,546 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+	.header-outer{
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+	} 
+	.headerButton{
+		position:fixed;
+		bottom: 10px;
+		align-items: center;
+	}
+	#Register-form{
+		margin-top:0px;
+	}
+	.form-main{
+		width:100%;
+		flex-direction:column;
+		margin-top:0px;
+		gap: 40px;
+	}
+	.form-left h1 {
+		font-size: 36px;
+		line-height: normal;
+		padding-left:10px;
+	}
+	.form-left h2 {
+		font-size: 20px;
+		line-height: 27px;
+		margin-bottom: 10px;
+	}
+	.form-left ul li{
+		font-size: 16px;
+		line-height: 28px;
+		padding-left:10px;
+	}
+	.form-left-btn .BtnOne {
+		font-size: 10px;
+	}
+	.form-left-btn .BtnTwo{
+		font-size:10px;
+	}
+	.form-left-btn{
+		justify-content:space-around;
+		margin-top: 10px;
+	}
+	.form-left-btn button {
+		width: 161px;
+		height: 48px;
+	}
+	/* ----------------------------------------------*/
+	.bottom-circle{
+		width: auto;
+		height: auto;
+		padding: 10px;
+        margin: 10px;
+	}
+	.form-right{
+		width: 100%;
+	}
+	.form-area{
+		width: 90%;
+		height: 355.9px;
+	}
+	.Input-field{
+		width:90%;
+	}
+	.Input-field button {
+		width: 100%;
+	}
+	.form-Union-area{
+		display: None;
+	}
+	/* ---------------------------------Achievement Section */
+	#ThirdSection{
+		margin: 30px 0px;
+	}
+	.ThirdSectionOuter{
+		width: 100%;
+		height: auto;
+		flex-wrap: wrap;
+		gap: 20px;
+		padding: 20px 0px;
+	}
+	.Achivement{
+		width: auto;
+		height: auto;
+	}
+	/* Key Highlights of the Course */
+	#highlights{
+		height: auto;
+		padding: 40px 20px;
+		row-gap: 30px;
+	}
+	.highlights-wrapper{
+		width: 90%;
+		height: auto;
+		padding: 20px;
+		justify-content: center;
+		align-items: center;
+	}
+	.highlights-feature{
+		flex-direction: column;
+		width: auto;
+	}
+	.highlights-heading h4{
+		font-size: 23px;
+
+	} 
+	.highlights-heading p{
+		font-size: 12px;
+	}
+	.highlights-feature-block{
+		max-width: 322px;
+	}
+	.block-element h4{
+		font-size: 19px;
+		line-height: normal;
+	}
+	.block-element p{
+		font-size: 12px;
+	}
+	/* Button Section */
+	.free-class-btn , .Certificate-bottom-btn, .download-btn{
+		max-width: 200px;
+		max-height: 50px;
+	}
+	.free-class-btn a, .Certificate-bottom-btn a, .download-btn a{
+		padding: 17px 24px;
+		font-size: 15px;
+		text-align: center;
+	}
+	/* End of Key Highlights of the Course */
+	#Digital-marketing{
+		width: auto;
+		height: auto;
+		padding: 40px;
+	}
+	.Digital-marketing-wrapper{
+		height: 100%;
+	}
+
+	.Digi-heading h3{
+		font-size: 23px;
+		line-height: normal;
+	}
+	.Digi-heading p{
+		font-size: 13px;
+	}
+
+	.digi-cards{
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+	/* End of Top career options in Digital Marketing */
+	.Certificate-wrapper{
+		max-width: 100%;
+		max-height: 100%;
+		flex-direction: column;
+		gap: 40px;
+		padding: 50px 0px;
+		
+	}
+	.Certificate-left{
+		width: 90%;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.Certificate-header{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.Certificate-header h4{
+		font-size: 24px;
+	}
+	.Certificate-header p{
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.Certificate-right{
+		width: 100%;
+		padding: 0px 20px;
+	}
+	.certificate-outline{
+		width: 80%;
+		height: auto;
+		padding: 20px 0px;
+	}
+	.Certificate-right>img{
+		top: -12px;
+        left: 27px;
+	}
+	.certificate-outline-background-circle{
+		width: 150px;
+		height: 150px;
+		bottom: -52px;
+        right: 19px;
+	}
+	.certificate-outline img{
+		width: 80%;
+	}
+	.cards-text h4{
+		font-size: 15px;
+	}
+	.cards-text p{
+		font-size: 10px;
+		max-width: 200px;
+		line-height: normal;
+	}
+
+	/* Curriculum-part */
+	
+	.Curriculum-nav-intro-part{
+		min-height: auto;
+        flex-direction: column;
+        gap: 20px;
+	}
+	.Curriculum-header h3{
+		font-size: 23px;
+		line-height: 30px;
+	}
+	.Curriculum-header p {
+		font-size: 15px;
+		padding: 0px 25px;
+	}
+	.Curriculum-navbar nav ul{
+		justify-content: space-evenly;
+	}
+	.Curriculum-navbar nav ul li{
+		font-size: 16px;
+	}
+	
+	.Curriculum-nav-intro-part ul li{
+		text-align: center;
+		align-items: center;
+	}
+	.Curriculum-nav-intro-part ul li p{
+		font-size: 13px;
+		text-align: left;
+	}
+	.Curriculum-nav-intro-part ul li p br{
+		display: none;
+	}
+	/* End of Curriculum of Our Digital Marketing */
+
+	.why-learn-wrapper{
+		padding: 50px 10px;
+	}
+	.why-learn-header h4{
+		font-size: 23px;
+	}
+	.why-learn-header p{
+		font-size: 12px;
+	}
+	.why-learn-chapters{
+		justify-content: center;
+	}
+	.why-learn-card{
+		gap: 20px;
+	}
+	.why-learn-card h4{
+		font-size: 20px;
+	}
+	.why-learn-card p{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	/* End of Why Learn Digital Marketing */
+	#Students-feedback{
+		padding: 30px 0px;
+	}
+
+	.Students-feedback-wrapper{
+		padding: 0px 10px;
+	}
+
+	.Students-feedback-heading h3{
+		font-size: 23px;
+		line-height: 27.25px;
+	}
+	.Students-feedback-heading p{
+		font-size: 12px;
+	}
+	.Students-feedback-chapter{
+		gap: 30px;
+	}
+	.name-photo h5{
+		font-size: 17px;
+	}
+	.name-photo h5 span{
+		font-size: 12px;
+	}
+	.Students-feedback-card p{
+		font-size: 11px;
+		line-height: 21px;
+	}
+	/* End of What Our Students Are Saying! */
+
+	.Enroll-now-wrapper{
+		max-height: 300px;
+		gap: 20px;
+		margin: 0px 10px;
+		padding: 0px 10px;
+	}
+	.Enroll-now-wrapper h3{
+		font-size: 25px;
+		line-height: 34.25px;
+	}
+	.Enroll-now-wrapper p{
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.Enroll-now-wrapper p br{
+		display: none;
+	}
+	.Enroll-now-wrapper::before{
+		display: none;
+	}
+	.Enroll-now-wrapper::after{
+		display: none;
+	}
+	/* End of Are You Ready To Start Your Course? */
+	.FAQs-wrapper{
+		padding: 0px 10px;
+	}
+	.FAQs-heading {
+		gap: 15px;
+	}
+	.FAQs-heading h3{
+		font-size: 23px;
+		line-height: 30px;
+	}
+	.FAQs-heading p {
+		font-size: 13px;
+	}
+	.FAQs-QA .first{
+		width: 100%;
+        height: max-content;
+        padding: 20px 10px;
+	}
+	.FAQs-QA .first h5{
+		max-width: max-content;
+        height: auto;
+        font-size: 15px;
+	}
+	.FAQs-QA .first p{
+		max-width: 90%;
+        height: auto;
+        font-size: 9px;
+        line-height: 17px;
+	}
+	.FAQs-QA-parts{
+		width: 100%;
+		padding: 0px 20px;
+	}
+	.FAQs-QA-parts h5{
+		font-size: 15px;
+	}
+	.FAQs-QA-parts i {
+		font-size: 15px;
+	}
+
+	.Companies-logo{
+		width:100% ;
+		gap: 35px;
+		justify-content: center;
+	}
+	.Companies-list-wrapper{
+		padding: 0px 10px;
+	}
+	.Companies-list-wrapper h4{
+		font-size: 23px;
+		text-align: center;
+	}
+
+	/* End of Top Companies Hiring Digital Marketing in India */
+	.upper{
+		padding: 0px 20px;
+	}
+	.upper img{
+		height: 50px;
+	}
+	.upper p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.upper p br{
+		display: none;
+	}
+	.copyright{
+		font-size: 12px;
+	}
+
+	
+}
+
+
+@media only screen and (min-width:576px) and (max-width:991px){
+	.header-outer{
+		width:90%;
+	}
+	.form-main{
+		width:90%;
+		flex-direction:column;
+		gap: 40px;
+	}
+	.form-left-btn{
+		justify-content:flex-start;
+		gap:20px;
+	}
+	.form-left h2{
+		margin-bottom: 20px;
+	}
+	.ThirdSectionOuter{
+		width: 90%;
+		height: auto;
+		padding: 20px;
+		flex-wrap: wrap;
+		align-items:center;
+		justify-content: flex-start;
+		row-gap: 30px;
+		column-gap: 79px;
+	}
+	#highlights{
+		height: auto;
+		padding: 40px 0px;
+	}
+	.highlights-wrapper{
+		width: 90%;
+		height: auto;
+		padding: 20px;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		gap: 20px;
+	}
+	.highlights-feature{
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.highlights-feature-block{
+		width: 300px;
+	}
+	.block-element{
+		width: 260px;
+	}
+	.block-element img {
+		width: 60px;
+		height: 60px;
+	}
+	.block-element h4{
+		font-size: 15px;
+	}
+	.block-element p{
+		font-size: 12px;
+	}
+
+	#Digital-marketing{
+		width: 100%;
+		height: 100%;
+		padding: 50px 0px;
+	}
+	.Digital-marketing-wrapper{
+		width: 100%;
+		height: auto;
+		gap: 30px;
+	}
+	.digi-cards{
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: flex-start;
+		justify-content: center;
+        gap: 50px;
+	}
+	/* End of Top career options in Digital Marketing */
+	.Certificate-wrapper{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 0px 125px 0px;
+	}
+	.Certificate-left{
+		max-width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+	.Certificate-header{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 40px;
+	}
+	.Certificate-mid-cards{
+		width: max-content;
+		padding: 0px 20px;
+	}
+	.Certificate-mid{
+		align-items: center;
+		justify-content: center;
+	}
+	.Certificate-right>img{
+		top: -18px;
+        left: -33px;
+	}
+	.certificate-outline-background-circle{
+		right: -55px;
+        bottom: -64px;
+	}
+	/* End of Get Certified */
+
+	#Curriculum-part{
+		padding: 80px 10px;
+	}
+	.Curriculum-navbar nav ul{
+		row-gap: 10px;
+	}
+	/* End of Curriculum of Our Digital Marketing */
+
+	.why-learn-wrapper{
+		padding: 50px 10px;
+	}
+
+	/* End of Why Learn Digital Marketing */
+
+	#Students-feedback{
+		padding: 80px 10px;
+	}
+
+	/* End of What Our Students Are Saying! */
+
+	#Enroll-now{
+		padding: 50px 10px;
+	}
+	.Enroll-now-wrapper{
+		margin: 0px 10px;
+	}
+	/* End of Are You Ready To Start Your Course? */
+
+	
+	
+}
